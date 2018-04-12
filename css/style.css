@@ -254,4 +254,70 @@ a {
     font-size: 4vw;
     margin: 0 auto;
   }
+  .ingredients {
+    padding: 10px;
+  }
+  .ingredient-card {
+    width: 25%;
+    margin: 10%;
+    margin-top: 0px;
+  }
+
+  .ingredient-img {
+    width: 90%;
+  }
+
+  .footer {
+    padding: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+  }
+
+  .nutrition {
+    width: 100%;
+    padding: 0px;
+  }
+  .nutrition-facts {
+    width: 80%;
+    padding: 0px;
+    margin: 0 auto;
+  }
+
+  .nutrition-p-wrapper {
+    padding: 30px;
+    width: 80%;
+    padding-top: 70px;
+  }
+  .nutrition-p {
+    font-size: 7vw;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+
+  .coffee-img {
+    width: 15vw;
+    display: inline-block;
+    padding-left: 2vw;
+    vertical-align: middle;
+  }
+
+  .caffeine {
+    font-size: 20vw;
+    display: inline;
+    vertical-align: middle;
+    padding-right: 20px;
+  }
+  .caffeine-wrapper {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .mg {
+    font-size: 6vw;
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    height: 50px;
+  }
 }
