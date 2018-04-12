@@ -4,6 +4,8 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <title>Caffeinade</title>
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
@@ -15,10 +17,19 @@
     <div class="wrapper">
         <div class="heading-wrapper">
 
-            <div class="title-wrapper">
+            <div class="fade title-wrapper">
                 <h1>Caffeinade</h1>
-                <p class="tagline">The refreshing way </br> to energize.</p>
+                <p class="tagline">The refreshing way </p>
+                <p class="tagline">to energize.</p>
+
+                </p>
             </div>
+
+
+            <!-- <div class="dots" style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </div> -->
         </div>
         <div class="ingredients">
             <div class="ingredient-card">
@@ -40,27 +51,35 @@
         </div>
         <div class="nutrition">
             <div class="nutrition-p-wrapper">
-                <p class="nutrition-p">90 mg caffeine per bottle</p>
-                <p class="coffee nutrition-p">equals one</br> 8 oz</p>
-                <img class="coffee-img" alt="coffee" src="./img/coffee.png" />
-                <p class="nutrition-p">
+                <div class="nutrition-p ">
+                    <div class="caffeine-wrapper">
+                        <div class="caffeine">90</div>
+                        <div class="mg">mg caffeine per bottle</div>
+                    </div>
+                </div>
+                <div class="coffee-wrapper">
+                    <p class="coffee nutrition-p">equals one 8 oz</p>
+                    <img class="coffee-img" alt="coffee" src="./img/coffee.png" />
+                </div>
+
+                <p class="nutrition-p natural">
                     <i>natural</i> ingredients</p>
             </div>
             <img class="nutrition-facts" src="./img/raspberry-white.png" />
         </div>
         <div class="footer">
-            <a href="https://www.facebook.com/caffeinade/">
-                <img class="social" src="./img/facebook.png" alt="facebook">
+            <a href="https://www.facebook.com/caffeinade/" target="_blank">
+                <img class=" social " src="./img/facebook.png " alt="facebook " ">
             </a>
-            <a href="https://www.instagram.com/drinkcaffeinade">
-                <img class="social" src="./img/instagram.png" alt="instagram">
+            <a href="https://www.instagram.com/drinkcaffeinade " target="_blank ">
+                <img class="social " src="./img/instagram.png " alt="instagram ">
             </a>
-            <a href="https://venmo.com/caffeinade">
-                <img src="./img/venmo.png" class="social venmo" alt="venmo">
+            <a target="_blank " href="https://venmo.com/caffeinade ">
+                <img src="./img/venmo.png " class="social venmo " alt="venmo ">
             </a>
         </div>
     </div>
 
-    <!-- <script src="./js/scripts.js"></script> -->
+    <script src="./index.js "></script> 
 </body>
 </html
