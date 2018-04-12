@@ -96,7 +96,6 @@ h2 {
   font-weight: 100;
   text-align: center;
   -webkit-font-smoothing: subpixel-antialiased;
-  font-weight: 300;
 }
 
 i {
@@ -297,10 +296,11 @@ a {
   }
 
   .coffee-img {
-    width: 15vw;
+    width: 18vw;
     display: inline-block;
-    padding-left: 2vw;
+    padding-left: 20px;
     vertical-align: middle;
+    margin-top: -15px;
   }
 
   .caffeine {
@@ -319,5 +319,22 @@ a {
     vertical-align: middle;
     width: 50%;
     height: 50px;
+  }
+
+  .coffee {
+    text-align: right;
+    height: 50px;
+    width: 50%;
+    vertical-align: middle;
+  }
+  .coffee-wrapper {
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .natural {
+    padding-top: 30px;
   }
 }
