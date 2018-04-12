@@ -404,4 +404,8 @@ img.nutrition-facts {
   .natural {
     padding-top: 30px;
   }
+
+  img.nutrition-facts {
+    width: 70vw;
+  }
 }
