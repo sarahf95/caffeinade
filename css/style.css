@@ -219,6 +219,69 @@ a {
   padding-top: 65vh;
 }
 
+.nutrition-p-wrapper {
+  padding: 30px;
+  width: 45%;
+  padding-top: 0px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.nutrition-p {
+  font-size: 7vw;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+img.nutrition-facts {
+  width: 40vw;
+  vertical-align: middle;
+}
+.coffee-img {
+  width: 12vw;
+  display: inline-block;
+  padding-left: 20px;
+  vertical-align: middle;
+}
+
+.caffeine {
+  font-size: 9vw;
+  display: inline;
+  vertical-align: middle;
+  padding-right: 20px;
+}
+.caffeine-wrapper {
+  margin: 0 auto;
+  text-align: center;
+  height: 20vh;
+  width: 110%;
+}
+.mg {
+  font-size: 3vw;
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+  /* height: 15vh; */
+}
+
+.coffee {
+  font-size: 3.5vw;
+  text-align: right;
+  /* height: 10vh; */
+  width: 40%;
+  vertical-align: middle;
+}
+.coffee-wrapper {
+  display: block;
+  margin: 0 auto;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.natural {
+  padding-top: 10vh;
+  font-size: 3.5vw;
+}
+
 @media only screen and (max-width: 600px) {
   .heading-wrapper {
     height: 70vh;
@@ -287,6 +350,7 @@ a {
     padding: 30px;
     width: 80%;
     padding-top: 70px;
+    overflow-x: visible;
   }
   .nutrition-p {
     font-size: 7vw;
@@ -307,18 +371,21 @@ a {
     font-size: 20vw;
     display: inline;
     vertical-align: middle;
-    padding-right: 20px;
+    padding-right: 10px;
   }
   .caffeine-wrapper {
     margin: 0 auto;
     text-align: center;
+    overflow-x: visible;
+    height: 12vh;
   }
   .mg {
     font-size: 6vw;
     display: inline-block;
     vertical-align: middle;
     width: 50%;
-    height: 50px;
+    overflow-x: visible;
+    height: 10vh;
   }
 
   .coffee {
