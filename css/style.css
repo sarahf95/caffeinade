@@ -8,6 +8,8 @@
   padding: 0px;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
@@ -17,6 +19,7 @@
   margin: 0 auto;
   align-content: center;
   padding: 0px;
+  width: 100%;
 }
 
 h1 {
@@ -32,19 +35,20 @@ h1 {
   font-size: 2vw;
 }
 
-#title-wrapper {
+.title-wrapper {
   align-content: center;
   float: right;
-  margin-top: 10vw;
+  margin-top: 40vh;
   text-align: center;
   padding: 40px;
-  padding-right: 10vw;
+  width: 40%;
 }
 
 .heading-wrapper {
   margin: 0 auto;
-  width: 100vw;
-  height: 35vw;
+  width: 100%;
+  overflow-x: hidden;
+  height: 100vh;
   display: block;
   text-align: center;
   background-image: url("../img/rasp-blossom2.jpeg");
@@ -168,4 +172,86 @@ a {
 .venmo {
   font-weight: 400;
   font-size: 3vw;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #ffff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active,
+.dot:hover {
+  background-color: #c2c2c2;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.dots {
+  padding-top: 65vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .heading-wrapper {
+    height: 70vh;
+    background-position-y: -20px;
+  }
+
+  .title-wrapper {
+    width: 42vw;
+    height: 42vw;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 40vw;
+    float: none;
+    padding: 40px;
+    margin: 0 auto;
+    overflow-x: visible;
+    margin-top: 20vh;
+    text-align: center;
+    position: relative;
+  }
+
+  h1 {
+    font-size: 15vw;
+    padding: 0px;
+    padding-top: 30px;
+    display: block;
+    overflow-x: visible;
+    margin: 0 auto;
+    margin-left: -10px;
+  }
+
+  .tagline {
+    font-size: 4vw;
+    margin: 0 auto;
+  }
 }
