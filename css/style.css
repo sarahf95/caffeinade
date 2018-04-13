@@ -2,6 +2,8 @@
   font-family: "Sweet Sensations";
   src: url("./fonts/SweetSensations.ttf");
 }
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
 * {
   margin: 0px;
   border: none;
@@ -285,6 +287,36 @@ img.nutrition-facts {
   font-size: 3.5vw;
 }
 
+.description-wrapper{
+  margin: 0 auto;
+  padding: 10vw;
+}
+
+.description{
+  width: 80vw;
+  margin: 0 auto;
+
+}
+.description-content{
+  font-size: 3vw;
+  display: inline-block;
+  width: 60vw;
+}
+
+.quote{
+  width: 5vw;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 3vw;
+}
+
+.end{
+  vertical-align: bottom;
+  margin-left: -2vw;
+}
+.end{
+  display: inline-block;
+}
 @media only screen and (max-width: 600px) {
   .heading-wrapper {
     height: 70vh;
