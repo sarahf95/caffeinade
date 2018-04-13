@@ -317,6 +317,97 @@ img.nutrition-facts {
 .end{
   display: inline-block;
 }
+
+.order-wrapper{
+  background-image: url(../img/bottles.jpg) ;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 6vw;
+  padding-bottom: 6vw;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  color: white;
+
+}
+
+.flavors {
+  color: white;
+  font-size: 3vw;
+  width: 40%;
+  margin-right: 2vw;
+  display: inline-block;
+  vertical-align: middle;
+}
+.lemon{
+  vertical-align: middle
+}
+.flavor-icon{
+  width: 6.5vw;
+  vertical-align: middle;
+}
+
+.raspberry-icon{
+  width: 4vw;
+  padding-right: 1.5vw;
+  padding-left: 1vw;
+}
+.raspberry{
+  padding-top: 2vh;
+}
+
+.flavor{
+  text-align: left;
+  padding-left: 3vw;
+}
+.reserve {
+  padding-bottom: 3vh;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 0px;
+  font-size: 3.5vw;
+  width: 100%;
+}
+.order{
+  background: black;
+  width: 65%;
+  margin: 0 auto;
+  text-align: center;
+padding-top: 5vh;
+padding-bottom: 5vh;
+  margin-top: 15vh;
+}
+
+.prices {
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle;
+  text-align: left;
+  margin-left: 2vw;
+}
+
+.price {
+  font-size: 3.5vw;
+}
+
+.price-wrapper{
+  display: inline-block;
+  width: 45%
+}
+
+.venmo-handle{
+  display: block;
+  margin-top: 3vh;
+  text-decoration: none;
+  color: white;
+}
+
+.venmo-handle:hover{
+  color: #f8ff98
+}
+
+
+
 @media only screen and (max-width: 600px) {
   .heading-wrapper {
     height: 70vh;
