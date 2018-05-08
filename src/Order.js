@@ -42,6 +42,7 @@ class Order extends Component {
                             className="venmo-handle"
                             href="http://venmo.com/caffeinade"
                             target="_blank"
+                            rel="noopener noreferrer"
                         >
                             venmo.com/caffeinade
                         </a>

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './css/style.css';
 import coffee from './img/coffee.png';
 import raspberryNutrition from './img/raspberry-white.png';
