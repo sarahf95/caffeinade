@@ -249,6 +249,8 @@ img.nutrition-facts {
 .description {
   width: 80vw;
   margin: 0 auto;
+  margin-left: 0px;
+  text-align: center;
 }
 .description-content {
   font-size: 3vw;
