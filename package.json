@@ -2,7 +2,6 @@
     "name": "caffeinade",
     "version": "0.1.0",
     "private": true,
-    "homepage": "http://caffeinade.info/",
     "dependencies": {
         "gh-pages": "^1.1.0",
         "lint": "^1.1.2",
