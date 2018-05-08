@@ -23,7 +23,11 @@ class Nutrition extends Component {
                         <i>natural</i> ingredients
                     </p>
                 </div>
-                <img className="nutrition-facts" src={raspberryNutrition} />
+                <img
+                    className="nutrition-facts"
+                    src={raspberryNutrition}
+                    alt="nutrition facts"
+                />
             </div>
         );
     }
