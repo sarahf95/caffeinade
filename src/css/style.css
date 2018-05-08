@@ -2,7 +2,7 @@
   font-family: "Sweet Sensations";
   src: url("./fonts/SweetSensations.ttf");
 }
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
 
 * {
   margin: 0px;
@@ -98,7 +98,6 @@ h2 {
   text-align: center;
   -webkit-font-smoothing: subpixel-antialiased;
   padding-top: 10vh;
-  }
 }
 
 i {
@@ -287,39 +286,38 @@ img.nutrition-facts {
   font-size: 3.5vw;
 }
 
-.description-wrapper{
+.description-wrapper {
   margin: 0 auto;
   padding: 10vw;
 }
 
-.description{
+.description {
   width: 80vw;
   margin: 0 auto;
-
 }
-.description-content{
+.description-content {
   font-size: 3vw;
   display: inline-block;
   width: 60vw;
 }
 
-.quote{
+.quote {
   width: 5vw;
   display: inline-block;
   vertical-align: top;
   margin-right: 3vw;
 }
 
-.end{
+.end {
   vertical-align: bottom;
   margin-left: -2vw;
 }
-.end{
+.end {
   display: inline-block;
 }
 
-.order-wrapper{
-  background-image: url(../img/bottles.jpg) ;
+.order-wrapper {
+  background-image: url(../img/wood-bottles.jpeg);
   width: 100%;
   margin: 0 auto;
   padding-top: 6vw;
@@ -328,7 +326,6 @@ img.nutrition-facts {
   background-position: center;
   height: 70vh;
   color: white;
-
 }
 
 .flavors {
@@ -339,24 +336,30 @@ img.nutrition-facts {
   display: inline-block;
   vertical-align: middle;
 }
-.lemon{
-  vertical-align: middle
+.lemon {
+  vertical-align: middle;
 }
-.flavor-icon{
+.flavor-icon {
   width: 6.5vw;
   vertical-align: middle;
 }
 
-.raspberry-icon{
+.lemon-icon {
+  transform: rotate(280deg);
+  width: 4vw;
+  margin-right: 2.5vw;
+}
+
+.raspberry-icon {
   width: 4vw;
   padding-right: 1.5vw;
   padding-left: 1vw;
 }
-.raspberry{
+.raspberry {
   padding-top: 2vh;
 }
 
-.flavor{
+.flavor {
   text-align: left;
   padding-left: 3vw;
 }
@@ -368,13 +371,13 @@ img.nutrition-facts {
   font-size: 3.5vw;
   width: 100%;
 }
-.order{
+.order {
   background: black;
   width: 65%;
   margin: 0 auto;
   text-align: center;
-padding-top: 5vh;
-padding-bottom: 5vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
   margin-top: 15vh;
 }
 
@@ -390,23 +393,21 @@ padding-bottom: 5vh;
   font-size: 3.5vw;
 }
 
-.price-wrapper{
+.price-wrapper {
   display: inline-block;
-  width: 45%
+  width: 45%;
 }
 
-.venmo-handle{
+.venmo-handle {
   display: block;
   margin-top: 3vh;
   text-decoration: none;
   color: white;
 }
 
-.venmo-handle:hover{
-  color: #f8ff98
+.venmo-handle:hover {
+  color: #f8ff98;
 }
-
-
 
 @media only screen and (max-width: 600px) {
   .heading-wrapper {
