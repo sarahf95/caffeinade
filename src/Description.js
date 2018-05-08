@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './css/style.css';
 import startQuote from './img/open-quote.svg';
 import endQuote from './img/end-quote.svg';
