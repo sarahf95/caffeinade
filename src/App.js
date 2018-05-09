@@ -6,12 +6,14 @@ import Order from './Order';
 import Ingredients from './Ingredients';
 import Nutrition from './Nutrition';
 import Footer from './Footer';
+import Nav from './Nav';
 
 class App extends Component {
     render() {
         return (
             <div className="App">
                 <div className="wrapper">
+                    <Nav />
                     <Header />
                     <Description />
                     <Order />
