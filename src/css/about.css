@@ -46,3 +46,26 @@
   margin-top: 100px;
   margin-bottom: 50px;
 }
+
+@media only screen and (max-width: 600px) {
+  .about-header {
+    height: 50vh;
+    background-position: center;
+    background-position-y: 40px;
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+  }
+  .person-img {
+    width: 50vw;
+  }
+  .person-wrapper {
+    display: block;
+    width: 80vw;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .team {
+    margin-top: 20px;
+  }
+}
