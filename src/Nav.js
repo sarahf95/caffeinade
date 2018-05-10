@@ -6,18 +6,15 @@ class Nav extends Component {
     render() {
         return (
             <div className="nav-wrapper">
-                <Link to={'/'} className="homebutton">
-                    <img src={logo} alt="home" />
-                </Link>
                 <div className="nav">
+                    <Link to={'/'} className="homebutton">
+                        <img src={logo} alt="home" />
+                    </Link>
                     <Link className="menu-item" to={'/about'}>
                         About
                     </Link>
                     <Link className="menu-item" to={'/events'}>
                         Events
-                    </Link>
-                    <Link className="menu-item" to={'/conatct'}>
-                        Contact
                     </Link>
                 </div>
             </div>
