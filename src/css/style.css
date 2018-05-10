@@ -142,14 +142,14 @@ a {
   text-decoration: none;
 }
 .social {
-  width: 20px;
+  width: 30px;
   vertical-align: middle;
   padding-right: 5px;
   padding-left: 5px;
 }
 
 .venmo {
-  width: 25px;
+  width: 35px;
 }
 
 .footer {
@@ -310,7 +310,7 @@ img.nutrition-facts {
 }
 
 .raspberry-icon {
-  width: 4vw;
+  width: 6vw !important;
   padding-right: 1.5vw;
   padding-left: 1vw;
 }
@@ -372,7 +372,47 @@ img.nutrition-facts {
   color: #d16ea5;
 }
 
+.nav-wrapper {
+  height: 10vh !important;
+  background-color: white;
+  position: fixed !important;
+  padding-top: 25px !important;
+  overflow: visible !important;
+}
+.menu-item {
+  margin-right: 30px !important;
+  color: black !important;
+  margin-bottom: 20px !important;
+}
+.menu-item:hover {
+  color: #d16ea5 !important;
+}
+
+.homebutton {
+  width: 50px;
+  position: absolute;
+  display: inline-block;
+  margin-top: -20px;
+  padding-top: 5px !important;
+  margin-left: -80px;
+  vertical-align: middle;
+  overflow: visible;
+}
+.menu-item:visited {
+  color: black !important;
+}
+.nav-container {
+  width: 25vw;
+  float: right;
+}
+
 @media only screen and (max-width: 600px) {
+  .nav-container {
+    text-align: center;
+    float: none;
+    width: 100%;
+  }
+
   .heading-wrapper {
     height: 70vh;
     background-position-y: -20px;
@@ -494,38 +534,4 @@ img.nutrition-facts {
   img.nutrition-facts {
     width: 70vw;
   }
-}
-
-.nav-wrapper {
-  height: 7vh;
-  background-color: white;
-  position: fixed;
-  padding-top: 30px;
-  overflow: visible;
-}
-.menu-item {
-  margin-right: 30px;
-  color: black;
-}
-.menu-item:hover {
-  color: #d16ea5;
-}
-
-.homebutton {
-  width: 50px;
-  position: absolute;
-  display: inline-block;
-  margin-top: -20px;
-  /* margin-right: 200px; */
-  margin-left: -80px;
-  vertical-align: middle;
-  overflow: visible;
-}
-.menu-item:visited {
-  color: black !important;
-}
-.nav {
-  width: 25vw;
-  margin-right: -20px;
-  float: right;
 }

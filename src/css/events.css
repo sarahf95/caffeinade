@@ -1,7 +1,7 @@
 .events-header {
   background-image: url("../img/table.JPG");
   height: 100vh;
-  widows: 100vw;
+  width: 100vw;
   background-size: cover;
 }
 
@@ -36,4 +36,18 @@
 
 li {
   margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .events-title {
+    margin-top: 50px;
+    display: inline-block;
+    font-size: 7vw;
+    color: black;
+    margin-bottom: 30px;
+  }
+
+  .events-header {
+    height: 50vh;
+  }
 }
