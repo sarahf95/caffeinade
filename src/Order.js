@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './css/style.css';
-import raspberry from './img/white-raspberry.svg';
-import lemon from './img/white-lemon.svg';
+import raspberry from './img/black-raspberry.svg';
+import lemon from './img/lemon.png';
 
 class Order extends Component {
     render() {

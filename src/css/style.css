@@ -169,6 +169,7 @@ a {
   font-weight: 100;
   margin: auto 0;
   margin-right: -20px;
+  color: black;
 }
 
 .venmo {
@@ -274,7 +275,7 @@ img.nutrition-facts {
 }
 
 .order-wrapper {
-  background-image: url(../img/six-pack.jpg);
+  background-image: url(../img/bottles-basket.JPG);
   width: 100%;
   margin: 0 auto;
   padding-top: 6vw;
@@ -282,12 +283,12 @@ img.nutrition-facts {
   background-size: cover;
   background-position: center;
   height: 80vh;
-  color: white;
+  color: black;
   overflow: hidden;
 }
 
 .flavors {
-  color: white;
+  color: black;
   font-size: 3vw;
   width: 40%;
   margin-right: 2vw;
@@ -303,7 +304,7 @@ img.nutrition-facts {
 }
 
 .lemon-icon {
-  transform: rotate(280deg);
+  /* transform: rotate(280deg); */
   width: 4vw;
   margin-right: 2.5vw;
 }
@@ -328,9 +329,10 @@ img.nutrition-facts {
   padding-top: 0px;
   font-size: 3.5vw;
   width: 100%;
+  font-weight: 200;
 }
 .order {
-  background: #000000ad;
+  background: white;
   border-radius: 10px;
   vertical-align: middle;
   width: 60vw;
@@ -363,11 +365,11 @@ img.nutrition-facts {
   display: block;
   margin-top: 3vh;
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .venmo-handle:hover {
-  color: #f8ff98;
+  color: #d16ea5;
 }
 
 @media only screen and (max-width: 600px) {
