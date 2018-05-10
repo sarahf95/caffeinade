@@ -1,16 +1,15 @@
 {
-  "main.css": "static/css/main.ec33d3d2.css",
-  "main.css.map": "static/css/main.ec33d3d2.css.map",
-  "main.js": "static/js/main.def25efd.js",
-  "main.js.map": "static/js/main.def25efd.js.map",
+  "main.css": "static/css/main.3c2e14f0.css",
+  "main.css.map": "static/css/main.3c2e14f0.css.map",
+  "main.js": "static/js/main.39743722.js",
+  "main.js.map": "static/js/main.39743722.js.map",
   "static/media/SweetSensations.ttf": "static/media/SweetSensations.cfc38b60.ttf",
   "static/media/agave.png": "static/media/agave.e9188b36.png",
+  "static/media/black-raspberry.svg": "static/media/black-raspberry.74c05413.svg",
+  "static/media/bottles-basket.JPG": "static/media/bottles-basket.f4dbff1d.JPG",
   "static/media/end-quote.svg": "static/media/end-quote.25a7d10b.svg",
   "static/media/lemon-bottle.JPG": "static/media/lemon-bottle.676e6cdf.JPG",
   "static/media/lemon.png": "static/media/lemon.2b7f2d27.png",
   "static/media/open-quote.svg": "static/media/open-quote.1babbdc5.svg",
-  "static/media/raspberry-white.png": "static/media/raspberry-white.0121180b.png",
-  "static/media/six-pack.jpg": "static/media/six-pack.a49fddad.jpg",
-  "static/media/white-lemon.svg": "static/media/white-lemon.c7dd5bc4.svg",
-  "static/media/white-raspberry.svg": "static/media/white-raspberry.2540bb97.svg"
+  "static/media/raspberry-white.png": "static/media/raspberry-white.0121180b.png"
 }
