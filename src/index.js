@@ -9,6 +9,8 @@ ReactDOM.render(
     <Router>
         <div className="App">
             <Route exact path="/" component={App} />{' '}
+            <Route exact path="/about" component={App} />{' '}
+            <Route exact path="/events" component={App} />{' '}
         </div>
     </Router>,
     document.getElementById('root')

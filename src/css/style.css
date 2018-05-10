@@ -495,3 +495,33 @@ img.nutrition-facts {
     width: 70vw;
   }
 }
+
+.nav-wrapper {
+  height: 7vh;
+  background-color: white;
+  position: fixed;
+  padding-top: 30px;
+}
+.menu-item {
+  margin-right: 30px;
+  color: black;
+}
+.menu-item:hover {
+  color: #d16ea5;
+}
+
+.homebutton {
+  width: 50px;
+  display: block;
+  float: left;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+.menu-item:visited {
+  color: black !important;
+}
+.nav {
+  width: 30vw;
+  margin-right: -20px;
+  float: right;
+}

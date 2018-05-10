@@ -1,26 +1,28 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from './Header';
-import Description from './Description';
-import Order from './Order';
-import Ingredients from './Ingredients';
-import Nutrition from './Nutrition';
-import Footer from './Footer';
-import Nav from './Nav';
-
+import PageContainer from './PageContainer';
+import { Routes, PageContent } from './Enums';
 class App extends Component {
     render() {
+        let path = window.location.href.split('/')[3];
+        let content = '';
+        switch (path) {
+        case Routes.ABOUT:
+            content = PageContent.ABOUT;
+            break;
+        case Routes.CONTACT:
+            content = PageContent.CONTACT;
+            break;
+        case Routes.EVENTS:
+            content = PageContent.EVENTS;
+            break;
+        default:
+            content = PageContent.HOME;
+            break;
+        }
         return (
             <div className="App">
-                <div className="wrapper">
-                    <Nav />
-                    <Header />
-                    <Description />
-                    <Order />
-                    <Ingredients />
-                    <Nutrition />
-                    <Footer />
-                </div>
+                <PageContainer content={content} />
             </div>
         );
     }
