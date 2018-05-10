@@ -274,14 +274,14 @@ img.nutrition-facts {
 }
 
 .order-wrapper {
-  background-image: url(../img/tree.jpg);
+  background-image: url(../img/six-pack.jpg);
   width: 100%;
   margin: 0 auto;
   padding-top: 6vw;
   padding-bottom: 6vw;
   background-size: cover;
   background-position: center;
-  height: 70vh;
+  height: 80vh;
   color: white;
   overflow: hidden;
 }
@@ -333,13 +333,13 @@ img.nutrition-facts {
   background: #000000ad;
   border-radius: 10px;
   vertical-align: middle;
-  width: 52vw;
+  width: 60vw;
   margin: 0 auto;
   text-align: center;
   padding-top: 4vh;
   padding-bottom: 5vh;
   margin-top: 12vh;
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 
 .prices {
