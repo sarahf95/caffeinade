@@ -30,11 +30,11 @@ class Order extends Component {
                     <div className="prices">
                         <div className="price-wrapper">
                             <div className="price">$3.75</div>
-                            <div className="unit">per bottle</div>
+                            <div className="unit"> per bottle</div>
                         </div>
                         <div className="price-wrapper">
                             <div className="price">$20.00</div>
-                            <div className="unit">per six pack</div>
+                            <div className="unit"> per six pack</div>
                         </div>
                     </div>
                     <div className="venmo-handle">

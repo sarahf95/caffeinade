@@ -310,7 +310,7 @@ img.nutrition-facts {
 }
 
 .raspberry-icon {
-  width: 6vw !important;
+  width: 4vw !important;
   padding-right: 1.5vw;
   padding-left: 1vw;
 }
@@ -407,6 +407,19 @@ img.nutrition-facts {
 }
 
 @media only screen and (max-width: 600px) {
+  .order {
+    margin-top: 25vh;
+  }
+  .prices {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .price-wrapper {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
   .nav-container {
     text-align: center;
     float: none;
@@ -417,7 +430,41 @@ img.nutrition-facts {
     height: 70vh;
     background-position-y: -20px;
   }
-
+  .flavors {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .flavor-icon {
+    width: 7vw !important;
+  }
+  .reserve {
+    font-size: 5vw;
+  }
+  .flavor {
+    font-size: 4.5vw;
+  }
+  .prices {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .price-wrapper {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  .venmo-handle {
+    margin-top: 15px;
+    font-size: 3.5vw;
+  }
+  .price {
+    display: inline;
+    font-size: 4vw;
+  }
+  .unit {
+    display: inline;
+    font-size: 4vw;
+  }
   .title-wrapper {
     width: 42vw;
     height: 42vw;
