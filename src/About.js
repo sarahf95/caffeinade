@@ -22,7 +22,7 @@ class About extends Component {
                                 className="person-img"
                             />{' '}
                             <p className="person-title">Sarah Feldmann </p>
-                            <p>Cheif Executive Officer</p>
+                            <p>Chief Executive Officer</p>
                         </div>
                         <div className="person-wrapper">
                             <img
@@ -31,7 +31,7 @@ class About extends Component {
                                 className="person-img"
                             />{' '}
                             <p className="person-title">Andre de Carvo </p>{' '}
-                            <p>Cheif Operating Officer</p>
+                            <p>Chief Operating Officer</p>
                         </div>
                         <div className="person-wrapper">
                             <img
@@ -40,7 +40,7 @@ class About extends Component {
                                 className="person-img"
                             />{' '}
                             <p className="person-title">Henry Zhang </p>
-                            <p>Cheif Product Officer</p>
+                            <p>Chief Product Officer</p>
                         </div>
                         <div className="person-wrapper">
                             <img
@@ -49,14 +49,14 @@ class About extends Component {
                                 className="person-img"
                             />{' '}
                             <p className="person-title">Shelby Fosbourgh </p>
-                            <p>Cheif Marketing Officer</p>
+                            <p>Chief Marketing Officer</p>
                         </div>
                     </div>
                     <div className="row">
                         <div className="person-wrapper">
                             <img src={eric} alt="eric" className="person-img" />{' '}
                             <p className="person-title">Eric Dimitrivich </p>
-                            <p>Cheif Financial Officer</p>
+                            <p>Chief Financial Officer</p>
                         </div>
                         <div className="person-wrapper">
                             <img
@@ -65,12 +65,12 @@ class About extends Component {
                                 className="person-img"
                             />{' '}
                             <p className="person-title">Nikki Isberto</p>
-                            <p>Cheif Design Officer</p>
+                            <p>Chief Design Officer</p>
                         </div>
                         <div className="person-wrapper">
                             <img src={kara} alt="kara" className="person-img" />{' '}
                             <p className="person-title">Kara Guizar </p>
-                            <p>Cheif Research Officer</p>
+                            <p>Chief Research Officer</p>
                         </div>
                     </div>
                 </div>
