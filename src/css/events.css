@@ -19,6 +19,9 @@
   width: 30px;
   vertical-align: middle;
 }
+.street-fair {
+  width: 40px;
+}
 
 .event-name {
   font-weight: 600;
