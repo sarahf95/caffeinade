@@ -2,9 +2,14 @@ import React, { Component } from 'react';
 import './css/events.css';
 import carnival from './img/carnival.png';
 import streetfair from './img/streetfair.png';
+import { MapContainer } from './MapContainer';
 
 class Events extends Component {
     render() {
+        const style = {
+            width: '100%',
+            height: '100%'
+        };
         return (
             <div>
                 <div className="events-header" />
@@ -41,6 +46,13 @@ class Events extends Component {
                                     May 19th | 10:00am - 7:00pm
                                 </div>
                                 <div className="loc">The Ave</div>
+                                <MapContainer
+                                    style={style}
+                                    initialCenter={{
+                                        lat: 40.854885,
+                                        lng: -88.081807
+                                    }}
+                                />
                             </div>
                         </li>
                     </ul>

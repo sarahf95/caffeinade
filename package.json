@@ -5,6 +5,7 @@
     "homepage": "http://caffeinade.info/",
     "dependencies": {
         "gh-pages": "^1.1.0",
+        "google-maps-react": "^2.0.2",
         "lint": "^1.1.2",
         "react": "^16.3.2",
         "react-dom": "^16.3.2",
