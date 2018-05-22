@@ -1,0 +1,13 @@
+<svg width="156" height="276" viewBox="0 0 156 276" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Canvas" fill="none">
+<g id="Group">
+<circle id="Ellipse" cx="105" cy="105" r="98.5" transform="matrix(0.700791 0.713366 -0.713366 0.700791 149.813 0.00585938)" stroke="white" stroke-width="13"/>
+<circle id="Ellipse_2" cx="76.5" cy="76.5" r="70" transform="matrix(0.700791 0.713366 -0.713366 0.700791 150.161 40.3157)" stroke="white" stroke-width="13"/>
+<line id="Line" y1="-6.5" x2="196.576" y2="-6.5" transform="matrix(-0.00889189 0.99996 -0.99996 -0.00889189 144.455 45.922)" stroke="white" stroke-width="13"/>
+<line id="Line_2" y1="-6.5" x2="72.2496" y2="-6.5" transform="matrix(0.639129 0.7691 -0.7691 0.639129 98.0354 97.13)" stroke="white" stroke-width="13"/>
+<line id="Line_3" y1="-6.5" x2="60.2993" y2="-6.5" transform="matrix(0.640095 -0.768296 0.768296 0.640095 111.259 200.489)" stroke="white" stroke-width="13"/>
+<line id="Line_4" y1="-6.5" x2="65.1153" y2="-6.5" transform="matrix(0.99863 0.052319 -0.052319 0.99863 79.186 149.29)" stroke="white" stroke-width="13"/>
+<path id="Vector" d="M 0 0L 144 144" transform="matrix(0.700791 0.713366 -0.713366 0.700791 156.806 48.5068)" stroke="white"/>
+</g>
+</g>
+</svg>
