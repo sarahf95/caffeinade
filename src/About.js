@@ -30,7 +30,7 @@ class About extends Component {
                                 alt="andre"
                                 className="person-img"
                             />{' '}
-                            <p className="person-title">Andre de Carvo </p>{' '}
+                            <p className="person-title">Andre Do Carmo</p>{' '}
                             <p>Chief Operating Officer</p>
                         </div>
                         <div className="person-wrapper">
