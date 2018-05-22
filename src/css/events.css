@@ -1,0 +1,56 @@
+.events-header {
+  background-image: url("../img/table.JPG");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+
+.events-title {
+  margin-top: 50px;
+  display: inline-block;
+  font-size: 3vw;
+  color: black;
+  margin-bottom: 50px;
+}
+
+.icon {
+  display: inline;
+  margin-right: 10px;
+  width: 30px;
+  vertical-align: middle;
+}
+.street-fair {
+  width: 40px;
+}
+
+.event-name {
+  font-weight: 600;
+}
+
+.events {
+  margin-bottom: 100px;
+}
+.content-wrapper {
+  display: inline-block;
+  width: 300px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+li {
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .events-title {
+    margin-top: 50px;
+    display: inline-block;
+    font-size: 7vw;
+    color: black;
+    margin-bottom: 30px;
+  }
+
+  .events-header {
+    height: 50vh;
+  }
+}
