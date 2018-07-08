@@ -2,7 +2,7 @@
     "name": "caffeinade",
     "version": "0.1.0",
     "private": true,
-    "homepage": "http://drinkcaffeinade.com/",
+    "homepage": "https://drinkcaffeinade.com/",
     "dependencies": {
         "gh-pages": "^1.1.0",
         "lint": "^1.1.2",
