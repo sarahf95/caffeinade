@@ -1,20 +1,20 @@
 @font-face {
-  font-family: "Sweet Sensations";
-  src: url("./fonts/SweetSensations.ttf");
+  font-family: 'Sweet Sensations';
+  src: url('./fonts/SweetSensations.ttf');
 }
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 * {
   margin: 0px;
   border: none;
   padding: 0px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 100;
   width: 100%;
   overflow-x: hidden;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
 
 .wrapper {
   display: block;
@@ -25,7 +25,7 @@
 }
 
 h1 {
-  font-family: "Sweet Sensations", sans-serif;
+  font-family: 'Sweet Sensations', sans-serif;
   font-size: 9vw;
   font-weight: 300;
   margin: 0 auto;
@@ -54,7 +54,7 @@ h1 {
   height: 100vh;
   display: block;
   text-align: center;
-  background-image: url("../img/lemon-bottle.JPG");
+  background-image: url('../img/lemon-bottle.JPG');
   background-size: 100vw;
   background-position-y: center;
   background-size: cover;
@@ -373,7 +373,7 @@ img.nutrition-facts {
 }
 
 .nav-wrapper {
-  height: 10vh !important;
+  height: 8vh !important;
   background-color: white;
   position: fixed !important;
   padding-top: 25px !important;
